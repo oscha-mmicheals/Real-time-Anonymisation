@@ -4,16 +4,10 @@ BERTScore Evaluation Script
 Computes BERTScore (Precision, Recall, F1) between an original text
 and its anonymized version to measure semantic similarity preservation.
 
-Part of the undergraduate cybersecurity project:
-"Implementation of Real-Time Data Anonymisation in Large Language Models Using Presidio."
 
 Installation:
     pip install bert-score
 
-If a previous download was interrupted and you get a loading error,
-clear the Hugging Face cache first:
-    Windows:  rmdir /s /q %USERPROFILE%\.cache\huggingface\hub\models--distilbert-base-uncased
-    Linux:    rm -rf ~/.cache/huggingface/hub/models--distilbert-base-uncased
 
 Usage:
     python bert_score_eval.py
