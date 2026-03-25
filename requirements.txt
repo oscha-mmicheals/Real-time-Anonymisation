@@ -1,0 +1,7 @@
+flask
+transformers
+torch
+presidio-analyzer
+presidio-anonymizer
+faker
+bert-score
